@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="music.xsl"?>
+<music>
+    <song id="1">
+        <songTitle>Bohemian Rhapsody</songTitle>
+        <artist>Queen</artist>
+        <albums>
+            <album>A Night at the Opera</album>
+            <album>Greatest Hits</album>
+            <album>Queen Forever</album>
+        </albums>
+        <debutYear>1975</debutYear>
+    </song>
+    <song id="2">
+        <songTitle>Billie Jean</songTitle>
+        <artist>Michael Jackson</artist>
+        <albums>
+            <album>Thriller</album>
+            <album>Number Ones</album>
+            <album>The Essential Michael Jackson</album>
+        </albums>
+        <debutYear>1983</debutYear>
+    </song>
+    <song id="3">
+        <songTitle>Shape of You</songTitle>
+        <artist>Ed Sheeran</artist>
+        <albums>
+            <album>÷ (Divide)</album>
+            <album>Best of Ed Sheeran</album>
+            <album>Now That's What I Call Music! 96</album>
+        </albums>
+        <debutYear>2017</debutYear>
+    </song>
+    <song id="4">
+        <songTitle>Imagine</songTitle>
+        <artist>John Lennon</artist>
+        <albums>
+            <album>Imagine</album>
+            <album>The John Lennon Collection</album>
+            <album>Lennon Legend: The Very Best of John Lennon</album>
+        </albums>
+        <debutYear>1971</debutYear>
+    </song>
+    <song id="5">
+        <songTitle>Uptown Funk</songTitle>
+        <artist>Mark Ronson ft. Bruno Mars</artist>
+        <albums>
+            <album>Uptown Special</album>
+            <album>Now That's What I Call Music! 90</album>
+            <album>Grammy Nominees 2016</album>
+        </albums>
+        <debutYear>2014</debutYear>
+    </song>
+     <song id="6">
+        <songTitle>Out of Time</songTitle>
+        <artist>The Weeknd</artist>
+        <albums>
+            <album>Hurry Up Tommorrow</album>
+            <album>After Hours</album>
+            <album>Starboy</album>
+        </albums>
+        <debutYear>2010</debutYear>
+    </song>
+</music>

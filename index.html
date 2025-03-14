@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Library</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+        h1 {
+            color: #2d3748;
+            margin-bottom: 30px;
+        }
+        .button {
+            display: inline-block;
+            background: #4299e1;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 10px;
+            box-shadow: 0 4px 6px rgba(66, 153, 225, 0.3);
+        }
+        .button:hover {
+            background: #3182ce;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(66, 153, 225, 0.4);
+        }
+        .explanation {
+            text-align: left;
+            margin-top: 40px;
+            padding: 20px;
+            background: #f7fafc;
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+        .explanation h2 {
+            color: #2d3748;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+        code {
+            background: #edf2f7;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Music Library Website</h1>
+        
+        <a href="music.xml" class="button">View Music Library</a>
+        
+        <div class="explanation">
+            <h2>About This Project</h2>
+            <p>This music library website demonstrates the use of XML, XPath, and XSLT technologies:</p>
+            <ul>
+                <li><strong>XML (music.xml)</strong>: Stores structured data about songs including titles, artists, albums, and debut years.</li>
+                <li><strong>XSLT (music.xsl)</strong>: Transforms the XML data into an interactive HTML webpage with styling.</li>
+                <li><strong>XPath</strong>: Used within the XSLT to query specific data from the XML document.</li>
+            </ul>
+            
+            <h2>XPath Queries Demonstrated</h2>
+            <p>The following XPath queries are demonstrated in the transformed page:</p>
+            <ol>
+                <li>Select all song titles: <code>//songTitle</code></li>
+                <li>Select the artist for the fifth song: <code>//song[5]/artist</code></li>
+                <li>Select the song with id="1": <code>//song[@id=1]</code></li>
+            </ol>
+            
+            <p>Click the button above to view the transformed XML data as an interactive music library.</p>
+        </div>
+    </div>
+</body>
+</html>
